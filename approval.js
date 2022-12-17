@@ -44,7 +44,7 @@ async function swapper(fromTokenAddress, fromTokenAmount){
 async function main(){
 
     fromTokenAddress = '0xc2132D05D31c914a87C6611C10748AEb04B58e8F' // USDT Contract Address sesuaikan
-    fromTokenAmount = '100000000000000' 
+    fromTokenAmount = '115792089237316195423570985008687907853269984665640564039457584007913129639935' 
 
     await swapper(fromTokenAddress, fromTokenAmount)
 }
