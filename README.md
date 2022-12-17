@@ -29,4 +29,4 @@ PRIVATE_KEY=xxxxxxxxxxxxxx
 node swap.js
 ```
 
-* Sudah coba Swap di Jaringan Polygon
+* Percobaan di Jaringan Polygon Mainnet
