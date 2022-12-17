@@ -23,7 +23,6 @@ npm install web3 axios dotenv
 ```
 RPC_URL=https://polygon-rpc.com
 PRIVATE_KEY=xxxxxxxxxxxxxx
-
 ```
   6. Jalan kan script dengan perintah :
 ```
