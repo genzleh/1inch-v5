@@ -19,7 +19,7 @@ cd swap
 ```
 npm install web3 axios dotenv
 ```
-  5. Pengaturan RPC & Private Key di file .env contoh :
+  5. Pengaturan RPC & Private Key bisa di ubah di file .env isi contoh :
 ```
 RPC_URL=https://polygon-rpc.com
 PRIVATE_KEY=xxxxxxxxxxxxxx
