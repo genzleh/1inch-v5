@@ -25,5 +25,9 @@ RPC_URL=https://polygon-rpc.com
 PRIVATE_KEY=xxxxxxxxxxxxxx
 
 ```
-Jalan kan script dengan perintah :
+  6. Jalan kan script dengan perintah :
+```
 node swap.js
+```
+
+* Sudah coba Swap di Jaringan Polygon
