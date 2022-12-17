@@ -15,3 +15,7 @@ mv 1inch-v5 swap
 cd swap
 
 ```
+  4. install web3 axios & dotenv
+```
+npm install web3 axios dotenv
+```
