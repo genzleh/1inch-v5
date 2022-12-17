@@ -16,7 +16,7 @@ async function swapper(fromTokenAddress, toTokenAddress, fromTokenAmount){
             data.tx.gas = 1000000
             tx = await web3.eth.sendTransaction(data.tx)
             if(tx.status){
-                console.log("Swap Berhasil!")
+                console.log("Swap Berhasil !!!")
             }
         }
     }catch(err){
