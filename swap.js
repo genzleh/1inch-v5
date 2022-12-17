@@ -16,7 +16,7 @@ async function swapper(fromTokenAddress, toTokenAddress, fromTokenAmount){
             data.tx.gas = 1000000
             tx = await web3.eth.sendTransaction(data.tx)
             if(tx.status){
-                console.log("Swap Successfull! :)")
+                console.log("Swap Berhasil! :)")
             }
         }
     }catch(err){
@@ -28,7 +28,7 @@ async function swapper(fromTokenAddress, toTokenAddress, fromTokenAmount){
 async function main(){
     fromTokenAddress = '0xc2132D05D31c914a87C6611C10748AEb04B58e8F' //Jual USDT
     toTokenAddress = '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174' // ke USDC
-    fromTokenAmount = '500000000' // 500000000 = $500 USD
+    fromTokenAmount = '100000' // 100000 = $0.1 USD ganti saldo sesuai yang mau di swap
 
     await swapper(fromTokenAddress, toTokenAddress, fromTokenAmount)
 }
